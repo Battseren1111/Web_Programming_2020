@@ -1,0 +1,50 @@
+header h1 {
+  color: black;
+
+  font-size: 1.2rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 25px;
+  border: 5px;
+  font-family: "Ubuntu", sans-serif;
+  border-radius: 30px;
+  /* margin-bottom: -30px; */
+}
+header {
+  /* padding: 0; */
+  /* margin-left: auto;
+  margin-right: auto; */
+  display: flex;
+  flex-direction: row;
+}
+header img {
+  height: 25vmin;
+  pointer-events: none;
+  width: 50px;
+  height: 50px;
+}
+@media (max-width: 400px) {
+  header h1 {
+    font-size: 20px;
+  }
+  header {
+    flex-direction: column;
+  }
+  header img {
+    display: none;
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

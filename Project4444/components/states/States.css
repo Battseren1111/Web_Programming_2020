@@ -1,0 +1,79 @@
+/*
+CSS for the CS142 project #4 Problem #2 states component
+
+Since CSS uses a global name space for classes we should use names starting with
+cs142-states- here.
+*/
+
+.container {
+  font-family: monospace;
+  transition: all 1s ease-out;
+  padding-left: 500px;
+  margin-top: none;
+}
+.search-table {
+  background-color: black;
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 1px;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 30px;
+}
+/* .search-table h2 a {
+} */
+.container h2 {
+  color: white;
+}
+.container h3 {
+  color: black;
+  font-size: 23px;
+}
+
+#list {
+  background-color: #181818;
+  border-radius: 20px;
+}
+.listItem div {
+  background-color: #181818;
+  transition: all 0.2s ease-in-out;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-sizing: border-box;
+  color: aliceblue;
+}
+.listItem {
+  color: white;
+}
+.listItem div:hover {
+  color: #ff1515;
+  cursor: default;
+}
+#Input {
+  height: 30px;
+  width: 70%;
+  font-size: 21px;
+  border-radius: 20px;
+  border: none;
+  text-align: center;
+}
+.listItem {
+  box-sizing: border-box;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 50px;
+}
+@media (max-width: 400px) {
+  .listItem {
+    box-sizing: border-box;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap:wrap; */
+    padding: 5px;
+    font-size: 8px;
+  }
+}
