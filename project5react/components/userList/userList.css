@@ -1,0 +1,9 @@
+.user {
+  text-decoration: none;
+  color: blue;
+  transition: all 0.2s ease-in-out;
+  font-style: initial;
+}
+.user:hover {
+  color: red;
+}
